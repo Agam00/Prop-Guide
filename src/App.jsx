@@ -16,7 +16,7 @@ function Navigation() {
     { id: "theme", label: "theme Props", icon: "🎨" },
   ];
   return (
-    <nav className={`sticky top-0 z-50 shadow-md`}>
+    <nav className={`sticky top-0 z-50 shadow-md backdrop-blur-md`}>
       <div className="container mx-auto px-4 py-4">
         <div className={`flex flex-wrap justify-center gap-2.5 `}>
           {sections.map((section) => (

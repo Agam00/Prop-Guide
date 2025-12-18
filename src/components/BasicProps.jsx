@@ -7,7 +7,7 @@ function Button({ text, color, size, onClick, disabled }) {
       disabled={disabled}
       className={`
       px-6 py-2 rounded-lg font-medium transition-all duration-300 text-white hover:rounded-4xl
-      ${size === "small" ? "text-sm px-2 py-1 bg-pink-600 " : ""}
+      ${size === "small" ? "text-sm px-0.5 py-0.5 bg-pink-600 " : ""}
       ${size === "large" ? "text-lg px-8 py-3 bg-violet-700 " : ""}
       ${color === "primary" ? "bg-blue-500 hover:bg-blue-600 text-white" : ""}
       ${color === "secondary" ? "bg-gray-500 hover:bg-gray-600 text-white" : ""}
